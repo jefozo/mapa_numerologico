@@ -1,0 +1,906 @@
+@charset "utf-8";
+
+/* celulares */
+
+@media screen {
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    :root {
+        --cor1: rgb(255, 204, 0); /*Tangerine yellow*/
+        --cor2: rgb(212, 175, 55); /*american gold*/
+        --cor3: rgb(184, 134, 11); /*dark goldenrod*/
+        --cor4: rgb(153, 101, 21); /*golden brown*/
+
+        }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        background-color: blueviolet;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    h6 {
+        font-weight: 100;
+        text-indent: 30px;
+    }
+
+    p {
+        padding: 2px;
+        margin: 0px 5px 0px 5px;
+        text-align: justify;
+        text-indent: 30px;
+        line-height: 1.2em;
+        font-size: 1em;
+    }
+
+    header {
+        width: auto;
+        height: auto;
+        background-color: grey;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    header > div#headerdiv1 {
+        margin: auto;
+        display: block;
+        width: auto;
+        height: auto;
+        background-color: red;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    header > div#headerdiv2 {
+        display: block;
+        width: 100%;
+        height: 45%;
+        background-color: blue;
+    }
+
+    header > div > img {
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.400);
+        border-radius: 15px;
+    }
+
+    main {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        background-color: white;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    section#sectionum {
+        background-color: aqua;
+        width: auto;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section#sectiondois {
+        background-color: cadetblue;
+        width: auto;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main > section > div.sectiondoisdivsa {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectiondoisdivsb {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectiondoisdivsc {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div > img.sectiondoisimg {
+        display: block;
+        margin: auto;
+        width: 15%;
+        height: 15%;
+    }
+
+    section#sectiontres {
+        background-color: aqua;
+        width: auto;
+        height: auto;
+    }
+
+    main > section > div#sectiontresdivum{
+        background-color: brown;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main > section > div#sectiontresdivdois{
+        background-color: burlywood;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main > section > div > img#sectiontresimg {
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 300px;
+    }
+
+    section#sectionquatro {
+        background-color: cadetblue;
+        width: auto;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main > section > ul {
+        list-style-position: inside;
+        columns: 1;
+    }
+
+    main > section > ul > li.sectionquatroli {
+        text-align: justify;
+        font-size: 1.7em;
+        font-weight: bolder;
+        list-style-type: '\2714\00A0\00A0';
+    }
+
+    section#sectioncinco {
+        background-color: aqua;
+        width: auto;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main > section > ul > li.sectioncincoli {
+        text-align: left;
+        font-size: 1.2em;
+        list-style-type: '\2714\00A0\00A0';
+    }
+
+
+
+    section.sectionseis {
+        background-color: cadetblue;
+        width: auto;
+        height: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    main > section > div.sectionseisdivsa {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectionseisdivsb {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectionseisdivsc {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectionseisdivsd {
+        background-color: white;
+        margin: 10px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectionseisdivse {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectionseisdivsf {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectionseisdivsg {
+        background-color: white;
+        margin: 10px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectionseisdivsh {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectionseisdivsi {
+        background-color: white;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    main > section > div.sectionseisdivsj {
+        background-color: white;
+        margin: 10px auto 0px auto;
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin-bottom: 15px;
+    }
+
+    section#sectionsete {
+        background-color: aqua;
+        width: auto;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section#sectionoito {
+        background-color: cadetblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        background: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW130cy?ver=ae87) no-repeat center center;
+        background-size: cover;
+        width: auto;
+        height: auto;
+        
+    }
+
+    section#sectionnove {
+        background-color: aqua;
+        width: auto;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main > section > div > img.sectionnoveimg {
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        border-radius: 7px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+    }
+
+    a.botao {
+        text-align: center;
+        display: block;
+        font-size: 1em;
+        width: 50%;
+        height: 50px;
+        margin: auto;
+        background-color: red;
+        color: blue;
+        border: 1px solid white;
+        border-radius: 7px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 7.5px;
+    }
+
+    a.botao:hover {
+        background-color: blue;
+        color: white;
+        transform: translate(-2px, -1px);
+        transition: transform 0.1s, border 0.2s;
+    }
+
+    section#sectiondez {
+        background-color: cadetblue;
+        width: auto;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    form > div.campo {
+        background-color: #5f2c82;
+        display: block;
+        width: 95%;
+        height: 50px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    div.campo > label {
+        display: none;
+    }
+
+
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 80%;
+        height: 40px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    div.campo > input {
+        background-color: (255, 255, 255, 0.600);
+        font-size: 1em;
+        height: 80%;
+        width: calc(100% - 10px);
+        border: 0px;
+        border-radius: 5px;
+        margin: 5px 5px 0px 5px;
+        
+    }
+
+    div.campo > input:focus-within {
+        background-color: white;
+    }
+
+    form > input[type=submit]:hover {
+        background-color: #2d6462;
+    }
+
+    footer {
+        width: 100vw;
+        height: auto;
+        background-color: red;
+    }
+
+    footer > p {
+        padding: 2px;
+        text-align: center;
+        font-size: 0.7em;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* tablet */
+
+    header {
+        width: auto;
+        height: 300px;
+        background-color: grey;
+    }
+
+    header > div#headerdiv1 {
+        float:  right;
+        width: 30%;
+        height: 265px;
+        background-color: red;
+        padding: auto;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    header > div#headerdiv2 {
+        float:  left;
+        width: 70%;
+        height: 265px;
+        background-color: blue;
+        padding: 20px;
+    }
+    
+    header > div > img {
+        width: 40%;
+        width: 250px;
+        height: 250px;
+    }
+
+    main {
+        width: 80%;
+        margin: auto;
+        background-color: white;
+    }
+
+    section#sectiondois {
+        width: auto;
+        height: 100%;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: auto;
+
+    }
+
+    main > section > div.sectiondoisdivsa {
+        float:  left;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectiondoisdivsb {
+        float:  right;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;     
+    }
+
+    main > section > div.sectiondoisdivsc {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div > img#sectiontresimg {
+        width: 400px;
+        height: 400px;
+    }
+
+    section.sectionseis {
+        width: auto;
+        height: 100%;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+
+
+    main > section > div.sectionseisdivsa {
+        float:  left;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsb {
+        float:  right;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;    
+    }
+
+    main > section > div.sectionseisdivsc {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsd {
+        float:  left;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivse {
+        float:  right;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;;    
+    }
+
+    main > section > div.sectionseisdivsf {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsg {
+        float:  left;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsh {
+        float:  right;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto; 
+    }
+
+    main > section > div.sectionseisdivsi {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsj {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+
+    /* pcs e tvs */
+
+    header {
+        width: auto;
+        height: 300px;
+        background-color: grey;
+    }
+
+    header > div#headerdiv1 {
+        float:  right;
+        width: 30%;
+        height: 265px;
+        background-color: red;
+        padding: auto;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    header > div#headerdiv2 {
+        float:  left;
+        width: 70%;
+        height: 265px;
+        background-color: blue;
+        padding: 20px;
+    }
+
+    main {
+        width: 70%;
+        margin: auto;
+        background-color: white;
+    }
+
+
+    header > div > img {
+        width: 250px;
+        height: 250px;
+    }
+
+    section#sectiondois {
+        height: 100%;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: auto;
+
+    }
+
+    main > section > div.sectiondoisdivsa {
+        float:  left;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectiondoisdivsb {
+        float:  right;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;     
+    }
+
+    main > section > div.sectiondoisdivsc {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div#sectiontresdivdois{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main > section > div > img#sectiontresimg {
+        width: 500px;
+        height: 500px;
+    }
+
+    section.sectionseis {
+        width: auto;
+        height: 100%;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+
+
+    main > section > div.sectionseisdivsa {
+        float:  left;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsb {
+        float:  right;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;    
+    }
+
+    main > section > div.sectionseisdivsc {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsd {
+        float:  left;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivse {
+        float:  right;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;;    
+    }
+
+    main > section > div.sectionseisdivsf {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsg {
+        float:  left;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsh {
+        float:  right;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto; 
+    }
+
+    main > section > div.sectionseisdivsi {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+    main > section > div.sectionseisdivsj {
+        float:  center;
+        background-color: white;
+        width: 32%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.500);
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
